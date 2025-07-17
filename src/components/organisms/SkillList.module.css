@@ -1,0 +1,21 @@
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+}
+main > div {
+    width: 50%;
+}
+main > div > table {
+    width: 100%;
+}
+main > div > table, tr, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px 0;
+}
