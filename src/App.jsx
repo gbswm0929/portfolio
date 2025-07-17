@@ -11,9 +11,9 @@ function App() {
     <>
     <Header/>
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/skill-stacks' element={<SkillStacks/>}/>
-      <Route path='/projects' element={<Projects/>}/>
+      <Route path='/portfolio' element={<Home/>}/>
+      <Route path='/portfolio/skill-stacks' element={<SkillStacks/>}/>
+      <Route path='/portfolio/projects' element={<Projects/>}/>
     </Routes>
     <Footer/>
     </>
